@@ -31,9 +31,8 @@
               "ignore": ["icons/*.svg"]
               },
               {
-                "glob": "favicon.ico",
-                "input": "src",
-                "output": "/"
+                "glob": "**/*",
+                "input": "public"
               }
             ],
             "styles": [
