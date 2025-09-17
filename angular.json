@@ -27,7 +27,13 @@
               {
               "glob": "**/*",
               "input": "src/assets",
-              "output": "assets/"
+              "output": "assets/",
+              "ignore": ["icons/*.svg"]
+              },
+              {
+                "glob": "favicon.ico",
+                "input": "src",
+                "output": "/"
               }
             ],
             "styles": [
